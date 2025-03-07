@@ -41,7 +41,6 @@ body {
 
 #box-container {
   background-color: aquamarine;
-  border: 2000px coral;
 }
 .box1 {
   background-color: blueviolet;
@@ -58,4 +57,23 @@ body {
   background-color: crimson;
   height: 300px;
   width: 300px;
+}
+#inline > p{
+  background-color: blue;
+  display: inline; /*this will make the display inline */
+}
+#block > a{
+  height: 900px;
+  width: 900px;
+  font-size: 30px;
+  color: chocolate;
+  background-color: crimson;
+  display: block; 
+}
+#inline-block > span{
+  background-color: chartreuse;
+  font-size: 50px;
+  height: 100px;
+  width: 300px;
+  display: inline-block;
 }
