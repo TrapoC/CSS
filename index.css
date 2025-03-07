@@ -32,9 +32,30 @@ body {
   border: 5px solid coral;
   margin: 50px 5px 10px 5px;
   font-style: oblique;
-  text-decoration:underline;
+  text-decoration: underline;
   font-size: 20px;
   text-align: center;
   letter-spacing: 5px;
   word-spacing: 5px;
+}
+
+#box-container {
+  background-color: aquamarine;
+  border: 2000px coral;
+}
+.box1 {
+  background-color: blueviolet;
+  height: 300px;
+  width: 300px;
+}
+.box2 {
+  background-color: chartreuse;
+  height: 300px;
+  width: 300px;
+  visibility: hidden;
+}
+.box3 {
+  background-color: crimson;
+  height: 300px;
+  width: 300px;
 }
