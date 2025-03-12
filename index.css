@@ -20,10 +20,45 @@ body {
 }
 
 #navbar {
-  background-color: deeppink;
-  color: blue;
-  height: fit-content;
-  width: 100%;
+  background-color: rgb(6, 145, 133);
+  display: flex;
+  color: rgb(34, 233, 8);
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+#right{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#right > a{
+  color: blanchedalmond;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#right > button{
+  color: chartreuse;
+  border: 1px solid rgb(236, 24, 24);
+  font-size: 17px;
+  color: rgb(142, 11, 182);
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+#right > a:hover{
+  color: fuchsia;
+  text-decoration: underline;
+}
+
+#right > button:hover{
+  color: fuchsia;
+  text-decoration: underline;
 }
 
 #box {
@@ -58,22 +93,69 @@ body {
   height: 300px;
   width: 300px;
 }
-#inline > p{
+#inline > p {
   background-color: blue;
   display: inline; /*this will make the display inline */
 }
-#block > a{
+#block > a {
   height: 900px;
   width: 900px;
   font-size: 30px;
   color: chocolate;
   background-color: crimson;
-  display: block; 
+  display: block;
 }
-#inline-block > span{
+#inline-block > span {
   background-color: chartreuse;
   font-size: 50px;
   height: 100px;
   width: 300px;
   display: inline-block;
+}
+/*p{
+  color: crimson;
+  font-size: 20px;
+}*/
+
+.descendants > p {
+  color: brown;
+  font-size: 20px;
+}
+
+#texts2 {
+  background-color: darkgoldenrod;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+#texts2:hover {
+  background-color: rgb(129, 12, 12);
+  color: rgb(55, 107, 107);
+  text-decoration: underline;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#H2TRY:hover {
+  background-color: rgb(16, 151, 16);
+  color: darkmagenta;
+  text-decoration: wavy;
+  width: fit-content;
+  cursor: pointer;
+}
+#Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color: rgb(228, 224, 17);
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  align-items: center
+}
+#Flex > p {
+  background-color: chartreuse;
+  height: 100px;
+  width: 100px;
+  color: rgb(6, 21, 231);
 }
