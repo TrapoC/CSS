@@ -1,0 +1,321 @@
+img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* body {
+  background-image: url("https://images.unsplash.com/photo-1741192223245-46cbbe8ae332?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}  */
+.container {
+  background-color: darkred;
+  color: rgb(12, 175, 216);
+  height: 700px;
+  width: 700px;
+  border-radius: 30px;
+}
+
+#navbar {
+  background-color: rgb(6, 145, 133);
+  display: flex;
+  color: rgb(34, 233, 8);
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+#right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#right > a {
+  color: blanchedalmond;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#right > button {
+  color: chartreuse;
+  border: 1px solid rgb(236, 24, 24);
+  font-size: 17px;
+  color: rgb(142, 11, 182);
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#right > a:hover {
+  color: fuchsia;
+  text-decoration: underline;
+}
+
+#right > button:hover {
+  color: fuchsia;
+  text-decoration: underline;
+}
+
+#box {
+  background-color: chartreuse;
+  padding: 30px 5px;
+  border: 5px solid coral;
+  margin: 50px 5px 10px 5px;
+  font-style: oblique;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+#box-container {
+  background-color: aquamarine;
+}
+.box1 {
+  background-color: blueviolet;
+  height: 300px;
+  width: 300px;
+}
+.box2 {
+  background-color: chartreuse;
+  height: 300px;
+  width: 300px;
+  visibility: hidden;
+}
+.box3 {
+  background-color: crimson;
+  height: 300px;
+  width: 300px;
+}
+#inline > p {
+  background-color: blue;
+  display: inline; /*this will make the display inline */
+}
+#block > a {
+  height: 900px;
+  width: 900px;
+  font-size: 30px;
+  color: chocolate;
+  background-color: crimson;
+  display: block;
+}
+#inline-block > span {
+  background-color: chartreuse;
+  font-size: 50px;
+  height: 100px;
+  width: 300px;
+  display: inline-block;
+}
+/*p{
+  color: crimson;
+  font-size: 20px;
+}*/
+
+.descendants > p {
+  color: brown;
+  font-size: 20px;
+}
+
+#texts2 {
+  background-color: darkgoldenrod;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+#texts2:hover {
+  background-color: rgb(129, 12, 12);
+  color: rgb(55, 107, 107);
+  text-decoration: underline;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#H2TRY:hover {
+  background-color: rgb(16, 151, 16);
+  color: darkmagenta;
+  text-decoration: wavy;
+  width: fit-content;
+  cursor: pointer;
+}
+#Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color: rgb(228, 224, 17);
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+#Flex > p {
+  background-color: chartreuse;
+  height: 100px;
+  width: 100px;
+  color: rgb(6, 21, 231);
+}
+#position > section {
+  height: 100vh;
+  width: 100vw;
+}
+#relative {
+  background-color: darkblue;
+}
+#relative-box {
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 100px;
+}
+#fixed {
+  background-color: rgb(9, 5, 61);
+  position: relative;
+}
+#fixed-box {
+  background-color: rgb(197, 218, 15);
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#absolute {
+  background-color: rgb(14, 223, 136);
+  position: relative;
+}
+#absolute-box {
+  background-color: rgb(168, 8, 8);
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#sticky {
+  background-color: darkmagenta;
+  position: relative;
+}
+#sticky-box {
+  background-color: rgb(39, 2, 36);
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  top: 30px;
+}
+#static {
+  background-color: green;
+}
+#static-box {
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 100px;
+}
+#contact-list {
+  background-color: seashell;
+  color: rgb(9, 5, 61);
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#sticky-h1 {
+  background-color: rgb(0, 0, 2);
+  color: seashell;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#A {
+  position: relative;
+}
+
+#A > h2 {
+  background-color: rgb(8, 105, 29);
+  padding: 10px;
+  position: sticky;
+  top: 65px;
+}
+
+#B {
+  position: relative;
+}
+
+#B > h2 {
+  background-color: rgb(8, 105, 29);
+  padding: 10px;
+  position: sticky;
+  top: 65px;
+}
+
+#C {
+  position: relative;
+}
+
+#C > h2 {
+  background-color: rgb(8, 105, 29);
+  padding: 10px;
+  position: sticky;
+  top: 65px;
+}
+.grid-container {
+  display: grid;
+  background-color: blue;
+  padding: 10px;
+
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  justify-items: stretch;
+  align-items: stretch;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 1px solid white;
+}
+
+.grid-container > div {
+  /* height: 100px;
+  /width: 100px;/
+  /* background-color: black; */
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.grid-container > :nth-child(1) {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url("https://images.unsplash.com/photo-1741531472824-b3fc55e2ff9c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+
+.grid-container > :nth-child(2) {
+  background-color: orange;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-column-end: 5;
+  background-image: url("https://plus.unsplash.com/premium_photo-1664438942410-e31ca26a4853?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+.grid-container > :nth-child(3) {
+  background-color: yellow;
+  background-image: url("https://plus.unsplash.com/premium_photo-1667428818562-fc8379f23bfe?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+.grid-container > :nth-child(4) {
+  background-color: green;
+  background-image: url("https://images.unsplash.com/photo-1741560440913-aced12c20177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
