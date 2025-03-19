@@ -319,3 +319,37 @@ img {
   background-image: url("https://images.unsplash.com/photo-1741560440913-aced12c20177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
 }
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) { #media-container {
+  background-color: rgb(155, 219, 7);
+}
+#navbar {
+  background-color: rgb(6, 145, 133);
+  display: flex;
+  color: rgb(34, 233, 8);
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+#right > a {
+  display: none;
+}
+}
+
+/* Tablet (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) { #media-container {
+  background-color: rgb(219, 7, 7);
+} }
+
+
+/* Mini laptops (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) { #media-container {
+  background-color: rgb(152, 189, 67);
+} }
+
+/* Regular PCs (1280px and above) */
+@media (min-width: 1280px) { #media-container {
+  background-color: rgb(12, 146, 135);
+} }
